@@ -1,1 +1,0 @@
-#bear class tests
