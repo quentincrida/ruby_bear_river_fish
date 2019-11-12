@@ -7,8 +7,8 @@ require_relative("../fish.rb")
 class RiverTest < MiniTest::Test
 
 def setup()
-  @test_river = River.new("Amazon" )
- @fish
+  @test_river = River.new("Amazon")
+  @fish
 end
   def test_river_name()
     assert_equal("Amazon", @test_river.name)
