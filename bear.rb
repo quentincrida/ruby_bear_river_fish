@@ -17,5 +17,9 @@ class Bear
   def bear_type()
     @type = type
   end
+
+  def bear_stomach()
+    @stomach = stomach
+  end
 #
 end

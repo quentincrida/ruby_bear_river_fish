@@ -18,6 +18,10 @@ class BearTest < MiniTest::Test
     assert_equal("Grizzly", @bear.type)
   end
 
+  def test_bear_stomach()
+    assert_equal([], @bear.stomach)
+  end
+
 
 
 
