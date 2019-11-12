@@ -7,10 +7,10 @@ require_relative("../bear.rb")
 class FishTest < MiniTest::Test
 
   def setup()
-    @fish = Fish.new("Rusty")
+    @test_fish = Fish.new("Rusty")
   end
 
   def test_fish_name()
-    assert_equal("Rusty", @fish.name)
+    assert_equal("Rusty", @test_fish.name)
   end
 end
