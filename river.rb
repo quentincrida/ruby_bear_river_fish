@@ -16,7 +16,9 @@ attr_reader :name, :fish
   @fish = []
   end
 
-
+  def add_fish_numbers(fish)
+   @fish.push(fish)
+  end
 
 
 
